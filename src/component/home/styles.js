@@ -28,6 +28,11 @@ export const styles = theme => ({
         backgroundColor: '#f7fbfc',
         padding: '1rem 1.5rem'
     }, 
+    image: {
+        width: '100%'
+    },
+    appBarSpacer: theme.mixins.toolbar,
+
 }) 
 export const Buttonstyles = theme => ({
     button: {

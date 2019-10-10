@@ -17,12 +17,16 @@ class AppBarComponent extends React.Component {
                     root: classes.rootAppBar, // class name, e.g. `root-x` 
                 }}  >
                 <Toolbar variant="dense">
-                <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-                    <MenuIcon />
-                </IconButton>
-                <div className={classes.header}>
-                    <WhatsAppIcon className={classes.iconHeader}/>
-                </div>
+                    <IconButton  
+                        onClick={() => {
+                            this.props.handleDrawer(true);
+                        }}
+                        edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                        <MenuIcon />
+                    </IconButton>
+                    <div className={classes.header}>
+                        <WhatsAppIcon className={classes.iconHeader}/>
+                    </div>
                 </Toolbar>
             </AppBar> 
         </div>

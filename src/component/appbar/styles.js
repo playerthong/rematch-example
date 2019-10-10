@@ -14,6 +14,10 @@ export const styles = theme => ({
             display: 'flex',
             justifyContent: 'center',
             borderBottom: 'solid 1px #0000001f',
+            right: 0,
+            left: 0,
+            position: 'fixed',
+            top: 0
     },
     root: {
         flexGrow: 1,
