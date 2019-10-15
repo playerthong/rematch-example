@@ -1,9 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
-
-import { BrowserRouter } from 'react-router-dom';
-
 import { Provider } from "react-redux";
 import { init } from "@rematch/core"; 
 import * as models from "./models"; 

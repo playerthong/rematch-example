@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import {Button,Typography} from '@material-ui/core';
-import Appbar from '../appbar'
 import DuoIcon from '@material-ui/icons/Duo';
 import { withStyles } from '@material-ui/core';
 import {styles} from './styles'
-import Carousel from '../carousel'
 import { connect } from 'react-redux';
 import Loading from '../loading'
 
@@ -43,7 +41,6 @@ class Home extends Component {
                         </div>
                         <div className={classes.containerCarousel}>
                             <img  className={classes.image} src={ele.urlToImage}/>
-                            {/* <Carousel url = {ele.url}/> */}
                         </div> 
                     </>
                     )
