@@ -7,7 +7,7 @@
     "@material-ui/icons": "^4.4.3",
     "@rematch/core": "^1.1.0",
     "moment": "^2.24.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "query-string": "^6.4.2",
     "react": "^16.8.6",
     "react-cookie": "^3.1.2",
